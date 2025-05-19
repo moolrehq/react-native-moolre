@@ -1,6 +1,6 @@
 {
   "name": "react-native-moolre",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "description": "A modern React Native plugin for integrating Moolre Payments. Accept mobile payments effortlessly in Ghana with a customizable checkout button.",
   "main": "./lib/module/index.js",
   "types": "./lib/typescript/src/index.d.ts",
