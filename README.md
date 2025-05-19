@@ -164,7 +164,7 @@ const styles = StyleSheet.create({
 
 | Prop           | Type                                   | Required | Description                                      |
 |----------------|----------------------------------------|----------|--------------------------------------------------|
-| `amount`       | `number`                               | ✅       | Payment amount in your currency                 |
+| `amount`       | `number`                               | ✅       | Payment amount in Ghana cedis                   |
 | `publicKey`    | `string`                               | ✅       | Your Moolre public API key                      |
 | `accountNumber`| `string`                               | ✅       | Your Moolre merchant account number             |
 | `currency`     | `string`                               | ❌       | Defaults to `"GHS"`                             |
@@ -173,7 +173,7 @@ const styles = StyleSheet.create({
 | `onSuccess`    | `(ref: string) => void`                | ✅       | Triggered on successful payment                 |
 | `onError`      | `({ code, message }) => void`          | ✅       | Triggered on failure or cancellation            |
 | `buttonStyle`  | `ViewStyle`                            | ❌       | Custom styles for the button                    |
-| `textStyle`    | `TextStyle`                            | ❌       | Custom styles for the button text              |
+| `textStyle`    | `TextStyle`                            | ❌       | Custom styles for the button text               |
 
 ---
 
