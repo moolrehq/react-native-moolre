@@ -1,6 +1,6 @@
 {
   "name": "react-native-moolre",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "This React Native plugin enables seamless integration of Moolre Payments into your React Native application.",
   "main": "./lib/module/index.js",
   "types": "./lib/typescript/src/index.d.ts",
