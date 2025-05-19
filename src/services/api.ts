@@ -80,7 +80,6 @@ export const initiatePayment = async ({
       status: data.status,
     };
   } catch (error) {
-    console.error("Moolre API Error:", error);
     throw new Error(
       error instanceof Error
         ? error.message
@@ -130,7 +129,6 @@ export const verifyPayment = async (
 
     return data;
   } catch (error) {
-    console.error("Moolre Verification Error:", error);
     throw new Error(
       error instanceof Error
         ? error.message
