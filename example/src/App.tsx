@@ -133,9 +133,9 @@ export default function App() {
 
           <MoolrePayButton
             amount={total}
-            publicKey="eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyaWQiOjUyNzgzLCJleHAiOjE4OTM0NzM5OTl9.ZtI3Q6D0Vb_OuM9AQYofwL7nmJfLIm1-cSqBTILK7ZQ"
-            accountNumber="527830503234"
-            email="freshdan24@gmail.com"
+            publicKey="your_public_key"
+            accountNumber="your_account_number"
+            email="customer@example.com"
             reference={customReference}
             callbackUrl={callbackUrl}
             onSuccess={handleSuccess}
