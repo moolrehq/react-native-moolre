@@ -47,14 +47,14 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/DanitoGH/react-native-moolre.git"
+    "url": "git+https://github.com/moolrehq/react-native-moolre.git"
   },
-  "author": "Daniel Adjei Boateng <freshdan24@gmail.com> (https://github.com/DanitoGH)",
+  "author": "Moolre HQ (https://github.com/moolrehq)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/DanitoGH/react-native-moolre/issues"
+    "url": "https://github.com/moolrehq/react-native-moolre/issues"
   },
-  "homepage": "https://github.com/DanitoGH/react-native-moolre#readme",
+  "homepage": "https://github.com/moolrehq/react-native-moolre#readme",
   "publishConfig": {
     "registry": "https://registry.npmjs.org/"
   },
