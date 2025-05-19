@@ -16,31 +16,6 @@ export const useMoolrePay = ({
   const [isProcessing, setIsProcessing] = useState(false);
   const [currentReference, setCurrentReference] = useState<string | null>(null);
 
-  // const handlePayment = useCallback(
-  //   async (params: { amount: number; currency: string; email?: string }) => {
-  //     setIsProcessing(true);
-  //     try {
-  //       const response = await initiatePayment({
-  //         ...params,
-  //         publicKey,
-  //         accountNumber,
-  //       });
-
-  //       setCurrentReference(response.reference);
-  //       return response;
-  //     } catch (error) {
-  //       onError({
-  //         code: "INITIATION_FAILED",
-  //         message: error instanceof Error ? error.message : "Unknown error",
-  //       });
-  //       throw error;
-  //     } finally {
-  //       setIsProcessing(false);
-  //     }
-  //   },
-  //   [publicKey, accountNumber, onError]
-  // );
-
   const handlePayment = useCallback(
     async (params: {
       amount: number;
@@ -123,9 +98,8 @@ export const useMoolrePay = ({
       }
     };
 
-    // Change the Linking event listener code to:
     const subscription = Linking.addEventListener("url", handleDeepLink);
-    return () => subscription.remove(); // New way to remove listener
+    return () => subscription.remove();
   }, [verifyTransaction]);
 
   return {

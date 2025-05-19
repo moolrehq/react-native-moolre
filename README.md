@@ -1,6 +1,6 @@
 # react-native-moolre
 
-**`react-native-moolre`** is a modern React Native plugin that enables seamless integration with the **Moolre Payments** platform. Accept mobile payments effortlessly using a professional, customizable checkout button.
+**`react-native-moolre`** is a modern React Native plugin that enables seamless integration with the **Moolre Payments** platform. Accept mobile payments effortlessly in Ghana using a professional, customizable checkout button.
 
 ---
 

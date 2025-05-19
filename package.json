@@ -1,7 +1,7 @@
 {
   "name": "react-native-moolre",
-  "version": "0.1.3",
-  "description": "This React Native plugin enables seamless integration of Moolre Payments into your React Native application.",
+  "version": "0.1.4",
+  "description": "A modern React Native plugin for integrating Moolre Payments. Accept mobile payments effortlessly in Ghana with a customizable checkout button.",
   "main": "./lib/module/index.js",
   "types": "./lib/typescript/src/index.d.ts",
   "exports": {
